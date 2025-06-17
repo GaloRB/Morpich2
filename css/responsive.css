@@ -34,6 +34,10 @@
     .banner-cotizacion{
         font-size: 1.4rem;
     }
+    .banner__img{                 
+    max-width: 50%;
+    text-align: center;
+    }
     button{
         font-size: 1.4rem;
         margin: 1rem auto;
@@ -57,12 +61,14 @@
 
 @media(min-width:481px) and (max-width:767px) {
     .nosotros__img__container img{
-        max-width: 40%;
         text-align: center;
 
     }
     .banner-cotizacion{
         font-size: 1.4rem;
+    }
+    .banner__img{                 
+    max-width: 40%;
     }
     button{
         font-size: 1.4rem;
@@ -113,6 +119,9 @@
         font-size: 5rem;
         color: white;
     }
+    .banner__img{                 
+    max-width: 30%;
+    }
     .banner__title h1 {
         
         border-radius: 8px;
@@ -133,7 +142,6 @@
     max-width: 50%;
     }
     .nosotros__img__container img{
-        max-width: 80%;
         text-align: center;
     }
     .nosotros__title h2 {
@@ -325,6 +333,11 @@
         color: white    ;
     }
 
+    .banner__img{                 
+    max-width: 30%;
+    text-align: center;
+    }
+
     .banner h1{
         font-size: 5rem;
     }
@@ -352,7 +365,6 @@
     flex-basis: 40%;
     }
     .nosotros__img__container img{
-        max-width: 60%;
         text-align: center;
     }
     
@@ -583,7 +595,6 @@
     flex-basis: 40%;                
     }
     .nosotros__img__container img{
-        max-width: 60%;
         text-align: center;
     }
 
